@@ -118,9 +118,7 @@ const Login = ({ setToken }) => {
     </div>
   ) : (
     <div className="flex items-center justify-center h-[97vh] px-6 lg:rounded-2xl rounded-xl sm:px-0 bg-gradient-to-br from-purple-300 to-lime-300">
-      <h1 className="absolute left-5 sm:left-20 top-5 font-bold rubik text-3xl cursor-pointer text-red-600">
-        RED <span className="text-black">CLOUD</span>
-      </h1>
+      
       <form
         onSubmit={OtpOnSubmit}
         className="bg-slate-900 p-8 rounded-lg shadow-lg w-96 text-sm"
