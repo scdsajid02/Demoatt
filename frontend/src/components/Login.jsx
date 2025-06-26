@@ -83,7 +83,7 @@ const Login = ({ setToken }) => {
     }
   };
   return showOtp === false ? (
-    <div className="flex  items-center justify-center h-[97vh] lg:rounded-2xl rounded-xl px-6 sm:px-0 bg-gradient-to-br from-purple-300 to-lime-300">
+    <div className="flex  items-center justify-center h-[97vh] lg:rounded-2xl rounded-xl px-6 sm:px-0 bg-gradient-to-br from-blue-300 to-gray-300">
       <div className="bg-slate-900 p-10 rounded-lg shadow-lg  w-full sm:w-96 text-indigo-300 text-sm">
         <h2 className="text-3xl font-semibold text-white text-center mb-3">
           Login
@@ -116,7 +116,7 @@ const Login = ({ setToken }) => {
       </div>
     </div>
   ) : (
-    <div className="flex items-center justify-center h-[97vh] px-6 lg:rounded-2xl rounded-xl sm:px-0 bg-gradient-to-br from-purple-300 to-lime-300">
+    <div className="flex items-center justify-center h-[97vh] px-6 lg:rounded-2xl rounded-xl sm:px-0 bg-gradient-to-br from-blue-300 to-gray-300">
       <h1 className="absolute left-5 sm:left-20 top-5 font-bold rubik text-3xl cursor-pointer text-red-600">
         Login
       </h1>
